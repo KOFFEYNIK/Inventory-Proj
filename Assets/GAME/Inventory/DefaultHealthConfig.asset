@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbb0e77fcd00f5a44a70d527aed73f65, type: 3}
+  m_Name: DefaultHealthConfig
+  m_EditorClassIdentifier: Assembly-CSharp::HealthConfig
+  maxHpHead: 35
+  maxHpChest: 85
+  maxHpStomach: 70
+  maxHpLeftArm: 60
+  maxHpRightArm: 60
+  maxHpLeftLeg: 65
+  maxHpRightLeg: 65
+  damageSpreadMultiplier: 0.15
+  spreadTargets: 01000000
+  criticalParts: 0000000001000000
+  defaultSurgicalKitRestoreHp: 30

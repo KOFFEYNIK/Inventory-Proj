@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__ai-game-developer__assets-refresh",
+      "mcp__ai-game-developer__console-get-logs",
+      "mcp__ai-game-developer__script-execute",
+      "mcp__ai-game-developer__tests-run",
+      "mcp__ai-game-developer__scene-save",
+      "mcp__ai-game-developer__console-clear-logs"
+    ]
+  }
+}

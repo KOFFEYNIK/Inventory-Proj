@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7ae15e37c4acdc45a510ce3ccf36115, type: 3}
+  m_Name: helmet
+  m_EditorClassIdentifier: Assembly-CSharp::ItemDefinition
+  itemId: helmet
+  displayName: "\u0428\u043B\u0435\u043C"
+  description: 
+  icon: {fileID: 0}
+  itemType: 5
+  width: 2
+  height: 2
+  canRotate: 0
+  maxStackSize: 1
+  weightPerUnit: 1.2
+  isContainer: 0
+  containerWidth: 1
+  containerHeight: 1
+  containerMaxWeight: 0
+  worldPrefab: {fileID: 1648377535540097740, guid: a69c0c99f28bf7546974210403ef32f2,
+    type: 3}
+  weaponPrefab: {fileID: 0}
+  consumable: {fileID: 0}

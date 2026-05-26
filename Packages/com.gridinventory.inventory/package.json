@@ -1,0 +1,21 @@
+{
+  "name": "com.gridinventory.inventory",
+  "version": "0.1.0",
+  "displayName": "Grid Inventory",
+  "description": "Универсальный гридовый инвентарь для Unity (2D / 3D): предметы W×H с вращением, вложенные контейнеры, экипировка, хотбар, save/load. Ядро не зависит от конкретных игровых систем (health, vitals, fps-анимация).",
+  "unity": "2022.3",
+  "author": {
+    "name": "GridInventory"
+  },
+  "keywords": [
+    "inventory",
+    "grid",
+    "tarkov",
+    "items",
+    "equipment",
+    "hotbar"
+  ],
+  "testables": [
+    "GridInventory.Inventory.Runtime"
+  ]
+}
