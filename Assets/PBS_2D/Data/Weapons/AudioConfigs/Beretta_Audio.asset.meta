@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6a52a7479aa72724e991a076b31c1a28
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Data/Weapons/AudioConfigs/Beretta_Audio.asset
+  uploadId: 907428

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f1f2cbcc08f57af42a04defbe723f170
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Prefabs/Characters/Player.prefab
+  uploadId: 907428

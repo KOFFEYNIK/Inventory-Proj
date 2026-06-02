@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 6c8eef0c09c7f4b4ba4720a5df462a2b
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Scripts/Editor/Weapons/WeaponPoseOffsetDrawer.cs
+  uploadId: 907428

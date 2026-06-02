@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 5ba82235764cc754f87482adbbc247e5
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Prefabs/Characters/Enemy_Idle.prefab
+  uploadId: 907428

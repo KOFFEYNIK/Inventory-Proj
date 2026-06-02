@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4b195145a62058a4295af15f7721baf3
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Prefabs/Weapons/Guns/Magazines/Dragunov_Mag.prefab
+  uploadId: 907428

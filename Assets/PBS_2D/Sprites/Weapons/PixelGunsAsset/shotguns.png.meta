@@ -1,0 +1,205 @@
+fileFormatVersion: 2
+guid: a03dd9414d962624e9570dc07f66f20f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6397827114584927988
+    second: shotguns_0
+  - first:
+      213: -6101340216345053195
+    second: shotguns_1
+  - first:
+      213: -1784940051284512572
+    second: shotguns_2
+  - first:
+      213: -1853556042100065778
+    second: shotguns_3
+  - first:
+      213: -8736793737822966811
+    second: shotguns_4
+  - first:
+      213: -4478670996446113251
+    second: shotguns_5
+  - first:
+      213: 6389695759024396007
+    second: shotguns_6
+  - first:
+      213: 3886509838108004542
+    second: shotguns_7
+  - first:
+      213: -3180927889251010831
+    second: shotguns_8
+  - first:
+      213: 2502993463362347069
+    second: shotguns_9
+  - first:
+      213: 1479512136684252274
+    second: shotguns_10
+  - first:
+      213: 9194516553871797834
+    second: shotguns_11
+  - first:
+      213: -6909270632048291810
+    second: shotguns_12
+  - first:
+      213: 5352039923681588734
+    second: shotguns_13
+  - first:
+      213: -3564162937066800554
+    second: shotguns_14
+  - first:
+      213: -1221950895634822565
+    second: shotguns_15
+  - first:
+      213: 4956145585345664353
+    second: shotguns_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f0be98eff6853754b8f495f72c2f15a9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      shotguns_0: -6397827114584927988
+      shotguns_1: -6101340216345053195
+      shotguns_10: 1479512136684252274
+      shotguns_11: 9194516553871797834
+      shotguns_12: -6909270632048291810
+      shotguns_13: 5352039923681588734
+      shotguns_14: -3564162937066800554
+      shotguns_15: -1221950895634822565
+      shotguns_16: 4956145585345664353
+      shotguns_2: -1784940051284512572
+      shotguns_3: -1853556042100065778
+      shotguns_4: -8736793737822966811
+      shotguns_5: -4478670996446113251
+      shotguns_6: 6389695759024396007
+      shotguns_7: 3886509838108004542
+      shotguns_8: -3180927889251010831
+      shotguns_9: 2502993463362347069
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Sprites/Weapons/PixelGunsAsset/shotguns.png
+  uploadId: 907428

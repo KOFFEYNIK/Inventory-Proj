@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 32fdd1a024836624084df41c745c812b
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Prefabs/Weapons/Guns/ShootingPoint.prefab
+  uploadId: 907428

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f5995a429fdcf734792b05483732b230
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Prefabs/Weapons/Guns/Projectiles/Bullet.prefab
+  uploadId: 907428

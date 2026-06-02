@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ca764a57c61780843a7d8660815c6b2e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Data/Weapons/Stats/MP5_Stats.asset
+  uploadId: 907428

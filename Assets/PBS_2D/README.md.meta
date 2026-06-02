@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c896a5e8965ab6447b6f201d7ea791ec
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/README.md
+  uploadId: 907428

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 2e498d1c8094910479dc3e1b768306a4
+timeCreated: 1484171803
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/ThirdParty/TextMesh Pro/Resources/Fonts & Materials/LiberationSans
+    SDF - Fallback.asset
+  uploadId: 907428

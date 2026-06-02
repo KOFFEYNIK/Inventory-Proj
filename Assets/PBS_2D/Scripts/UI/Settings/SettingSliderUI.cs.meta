@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: f8c37fb8db5f03643ab98e98bd9394f4
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Scripts/UI/Settings/SettingSliderUI.cs
+  uploadId: 907428

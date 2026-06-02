@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b7e184f7d4b9b0b4a857a6983aa79261
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Prefabs/Weapons/Guns/Magazines/Glock_Mag.prefab
+  uploadId: 907428

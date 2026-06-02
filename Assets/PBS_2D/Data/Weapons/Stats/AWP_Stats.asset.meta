@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e9fcf6f9a031863499b77e766cdf81e9
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Data/Weapons/Stats/AWP_Stats.asset
+  uploadId: 907428

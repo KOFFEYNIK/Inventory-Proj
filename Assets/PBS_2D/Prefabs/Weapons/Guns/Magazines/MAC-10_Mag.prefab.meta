@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: abafc259f622872409d0c6a12e2234f4
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Prefabs/Weapons/Guns/Magazines/MAC-10_Mag.prefab
+  uploadId: 907428

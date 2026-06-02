@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 1cd387bcab6034a488c98c5f83006eb6
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Scripts/UI/Settings/GameplaySettings.cs
+  uploadId: 907428

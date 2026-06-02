@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 85f4c6f55cc710348a6d9ac48068d950
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Prefabs/UI/MenuSelector.prefab
+  uploadId: 907428

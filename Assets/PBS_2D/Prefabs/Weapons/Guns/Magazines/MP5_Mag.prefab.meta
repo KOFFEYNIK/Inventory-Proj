@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8238b79aa67d60f478d8e1336b3ffc6c
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Prefabs/Weapons/Guns/Magazines/MP5_Mag.prefab
+  uploadId: 907428

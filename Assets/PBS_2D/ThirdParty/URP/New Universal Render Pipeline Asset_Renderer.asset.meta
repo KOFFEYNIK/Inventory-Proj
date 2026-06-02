@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a17b836ce936ce44b892fd98c0fae68d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/ThirdParty/URP/New Universal Render Pipeline Asset_Renderer.asset
+  uploadId: 907428

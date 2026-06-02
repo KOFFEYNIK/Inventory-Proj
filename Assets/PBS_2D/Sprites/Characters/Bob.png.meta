@@ -1,0 +1,736 @@
+fileFormatVersion: 2
+guid: 9fea43ec60e03a441bcf6572989d834c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5899847947390980637
+    second: bob_0
+  - first:
+      213: 4058500632094824262
+    second: bob_1
+  - first:
+      213: 6661852246698698781
+    second: bob_2
+  - first:
+      213: 7666422293913663921
+    second: bob_3
+  - first:
+      213: 4697740505883481099
+    second: bob_4
+  - first:
+      213: -6219196203134961139
+    second: bob_5
+  - first:
+      213: -4160352514087004348
+    second: bob_6
+  - first:
+      213: -2016465152443831564
+    second: bob_7
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: head0_bob
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 115
+        width: 12
+        height: 12
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b83603a91e5e2494d817a94264e7dad6
+      internalID: 3694459544301812682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upperTorso_bob
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 104
+        width: 12
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.54545456}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d40402a2ed6e3743b197c7d01adbeae
+      internalID: -1782195682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: midTorso_bob
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 94
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 705dc4d8f689cdc43a82d5fc8d7c1c8a
+      internalID: 5645216860015622430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: head1_bob
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 115
+        width: 12
+        height: 12
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29194aa16fc44b04fa110aa70998faf2
+      internalID: -1690262222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: head2_bob
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 115
+        width: 12
+        height: 12
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e64f1b636ebca240b73ea64ee75f608
+      internalID: -2101241749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerTorso_bob
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 82
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4edfbf4fe8c8f3478efb141be556990
+      internalID: -8569032761487138307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upperFrontLeg_bob
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 66
+        width: 7
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.9375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 326362ef7a1a7684ca6b8032a019fb23
+      internalID: 3422920929437837214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upperBackLeg_bob
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 66
+        width: 7
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.9375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 440614e417b930149984ca062c42f276
+      internalID: -1001608723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerFrontLeg_bob
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 52
+        width: 5
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5, y: 0.9285714}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a8e1882375731544bef8ad039689c92
+      internalID: -214431406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frontFoot_bob
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 47
+        width: 7
+        height: 5
+      alignment: 9
+      pivot: {x: 0.35714287, y: 0.8}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ed7b4e49d64da408063531949e8698
+      internalID: 317490129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerBackLeg_bob
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 52
+        width: 5
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5, y: 0.9285714}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e26a3b3996fb152488174874622efcb0
+      internalID: 1048110245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backFoot_bob
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 47
+        width: 7
+        height: 5
+      alignment: 9
+      pivot: {x: 0.35714287, y: 0.8}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e819d0a799f1b604495b77c0f58135b4
+      internalID: -1407719440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upperFrontArm_bob
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 101
+        width: 5
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5, y: 0.85714287}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95afed5855f228344a310eb370015b86
+      internalID: -88146063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerFrontArm_bob
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 88
+        width: 4
+        height: 13
+      alignment: 9
+      pivot: {x: 0.5, y: 0.9230769}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 617b0ae65517d7241afc1d01be68fb42
+      internalID: -536069924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frontHand_bob
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 83
+        width: 5
+        height: 5
+      alignment: 9
+      pivot: {x: 0.6, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a6a1ae2830189240adbcda91f2b93b7
+      internalID: 419669900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: backHand_bob
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 83
+        width: 5
+        height: 5
+      alignment: 9
+      pivot: {x: 0.6, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5dc3c96946bee428e6356c7a3d6f63
+      internalID: 1662993026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerBackArm_bob
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 88
+        width: 4
+        height: 13
+      alignment: 9
+      pivot: {x: 0.5, y: 0.9230769}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93762eb49a6276d4c9f165078992fcbd
+      internalID: -307052054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: upperBackArm_bob
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 101
+        width: 5
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5, y: 0.85714287}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa0b9ba72f8ca94993ada48aaa64fa6
+      internalID: -429736699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand0_bob
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 42
+        width: 6
+        height: 5
+      alignment: 9
+      pivot: {x: 0.16666667, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf8434927e31b44f91c5a1141650802
+      internalID: 2004905105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand1_bob
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 38
+        width: 6
+        height: 4
+      alignment: 9
+      pivot: {x: 0.33333334, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 853dbe2cd7a0fb84e9fc695f7b7a6959
+      internalID: -1175122799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand6_bob
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 42
+        width: 4
+        height: 5
+      alignment: 9
+      pivot: {x: 0.25, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d64e426a269b54db1ce73859ca1656
+      internalID: -312320447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand2_bob
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 42
+        width: 4
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22065e1aa57ba8546a1226a28c960be5
+      internalID: 1598306215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand3_bob
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 38
+        width: 5
+        height: 4
+      alignment: 9
+      pivot: {x: 0.2, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffb0fe3530480a0459663198008e9794
+      internalID: 2138565549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand5_bob
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 38
+        width: 4
+        height: 4
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 169524f0e926f614a8b049e9bff21cf3
+      internalID: -2037626041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hand4_bob
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 42
+        width: 4
+        height: 5
+      alignment: 9
+      pivot: {x: 0.25, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688702a88bfe40a459f163973d74753a
+      internalID: 980710716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e787fd885cc12b248986a1755fbffa4e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      backFoot_bob: -1407719440
+      backHand_bob: 1662993026
+      frontFoot_bob: 317490129
+      frontHand_bob: 419669900
+      hand0_bob: 2004905105
+      hand1_bob: -1175122799
+      hand2_bob: 1598306215
+      hand3_bob: 2138565549
+      hand4_bob: 980710716
+      hand5_bob: -2037626041
+      hand6_bob: -312320447
+      head0_bob: 3694459544301812682
+      head1_bob: -1690262222
+      head2_bob: -2101241749
+      lowerBackArm_bob: -307052054
+      lowerBackLeg_bob: 1048110245
+      lowerFrontArm_bob: -536069924
+      lowerFrontLeg_bob: -214431406
+      lowerTorso_bob: -8569032761487138307
+      midTorso_bob: 5645216860015622430
+      upperBackArm_bob: -429736699
+      upperBackLeg_bob: -1001608723
+      upperFrontArm_bob: -88146063
+      upperFrontLeg_bob: 3422920929437837214
+      upperTorso_bob: -1782195682
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Sprites/Characters/Bob.png
+  uploadId: 907428

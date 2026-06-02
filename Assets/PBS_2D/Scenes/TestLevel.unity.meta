@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 23982a71383114945a563270655b9463
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Scenes/TestLevel.unity
+  uploadId: 907428

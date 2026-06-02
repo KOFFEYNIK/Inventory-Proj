@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b4f7df6ede303494493b6c37164c5b42
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Scripts/Editor/PBS2D.Editor.asmdef
+  uploadId: 907428

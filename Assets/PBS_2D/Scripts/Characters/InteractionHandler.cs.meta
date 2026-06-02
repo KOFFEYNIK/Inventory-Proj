@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: cc81b13838f38bf4fbff8d143458d41f
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Scripts/Characters/InteractionHandler.cs
+  uploadId: 907428

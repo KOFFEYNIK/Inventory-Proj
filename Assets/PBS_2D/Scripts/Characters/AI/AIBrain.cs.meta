@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 4d8c564d559a0b34cba4a1901a34c5e7
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Scripts/Characters/AI/AIBrain.cs
+  uploadId: 907428

@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 188058994209a7d4e8a6abab7718b189
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Scripts/Environment/NightLight.cs
+  uploadId: 907428

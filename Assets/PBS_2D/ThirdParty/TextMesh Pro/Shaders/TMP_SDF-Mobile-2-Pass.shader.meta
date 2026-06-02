@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 0178fcb869bafef4690d177d31d17db8
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/ThirdParty/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader
+  uploadId: 907428

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: cdca1e5ddc178344aa7bdc1c3ff55529
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Prefabs/Weapons/Guns/Magazines/Beretta_Mag.prefab
+  uploadId: 907428

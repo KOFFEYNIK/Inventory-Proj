@@ -47,17 +47,17 @@ public class WorldItem2D : WorldItemBase
         if (definition == null) return null;
 
         GameObject go = null;
-        if (definition.worldPrefab != null)
+        if (definition.worldPrefab2D != null)
         {
             try
             {
-                go = Object.Instantiate(definition.worldPrefab, position,
+                go = Object.Instantiate(definition.worldPrefab2D, position,
                                         rotation == default ? Quaternion.identity : rotation);
                 go.name = definition.displayName;
             }
             catch (System.Exception ex)
             {
-                Debug.LogError($"[WorldItem2D] Instantiate worldPrefab '{definition.worldPrefab?.name}' " +
+                Debug.LogError($"[WorldItem2D] Instantiate worldPrefab '{definition.worldPrefab2D?.name}' " +
                                $"для '{definition.displayName}' упал: {ex.Message}. Падение на fallback-sprite.");
                 if (go != null) Object.Destroy(go);
                 go = null;

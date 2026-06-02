@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 306a1797f7eab764e9c75ac398eb7c12
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Prefabs/Weapons/Guns/Magazines/AWP_Mag.prefab
+  uploadId: 907428

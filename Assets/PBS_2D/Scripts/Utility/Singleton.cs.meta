@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 2556d08f2a688af459c25c9e5d347d0b
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Scripts/Utility/Singleton.cs
+  uploadId: 907428

@@ -1,0 +1,225 @@
+fileFormatVersion: 2
+guid: 58a0e057ce5344b478c55b9f1fd812ee
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3482989308630840391
+    second: snipers_0
+  - first:
+      213: -6847611063835391394
+    second: snipers_1
+  - first:
+      213: 3308956777027077260
+    second: snipers_2
+  - first:
+      213: -2649019006141536974
+    second: snipers_3
+  - first:
+      213: -3994050811491198499
+    second: snipers_4
+  - first:
+      213: 7131526905542848708
+    second: snipers_5
+  - first:
+      213: 6682104106896487634
+    second: snipers_6
+  - first:
+      213: 4420857980017325087
+    second: snipers_7
+  - first:
+      213: 7388548875011308432
+    second: snipers_8
+  - first:
+      213: 1185206241873666938
+    second: snipers_9
+  - first:
+      213: -8496708821939047557
+    second: snipers_10
+  - first:
+      213: 4760583992752792577
+    second: snipers_11
+  - first:
+      213: -8772176713940871224
+    second: snipers_12
+  - first:
+      213: 1449429341931852917
+    second: snipers_13
+  - first:
+      213: 5492193870406388211
+    second: snipers_14
+  - first:
+      213: 3009431858307216748
+    second: snipers_15
+  - first:
+      213: 2629312930046817798
+    second: snipers_16
+  - first:
+      213: 7723050685465507208
+    second: snipers_17
+  - first:
+      213: 8012996880405487696
+    second: snipers_18
+  - first:
+      213: 2886374663845922966
+    second: snipers_19
+  - first:
+      213: 2834069622105079288
+    second: snipers_20
+  - first:
+      213: 994344807189861368
+    second: snipers_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 22af81f69a37bb44f9af7f0331a958e5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      snipers_0: -3482989308630840391
+      snipers_1: -6847611063835391394
+      snipers_10: -8496708821939047557
+      snipers_11: 4760583992752792577
+      snipers_12: -8772176713940871224
+      snipers_13: 1449429341931852917
+      snipers_14: 5492193870406388211
+      snipers_15: 3009431858307216748
+      snipers_16: 2629312930046817798
+      snipers_17: 7723050685465507208
+      snipers_18: 8012996880405487696
+      snipers_19: 2886374663845922966
+      snipers_2: 3308956777027077260
+      snipers_20: 2834069622105079288
+      snipers_21: 994344807189861368
+      snipers_3: -2649019006141536974
+      snipers_4: -3994050811491198499
+      snipers_5: 7131526905542848708
+      snipers_6: 6682104106896487634
+      snipers_7: 4420857980017325087
+      snipers_8: 7388548875011308432
+      snipers_9: 1185206241873666938
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Sprites/Weapons/PixelGunsAsset/snipers.png
+  uploadId: 907428

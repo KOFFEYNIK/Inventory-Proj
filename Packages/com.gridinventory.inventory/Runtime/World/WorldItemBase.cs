@@ -6,7 +6,7 @@ using UnityEngine.UI;
 /// preservedInstance), логику подбора (TryPickup) и world-space подсказку. 2D/3D-специфика
 /// (ориентация подсказки к камере, физика дропа) — в наследниках.
 /// </summary>
-public abstract class WorldItemBase : MonoBehaviour
+public abstract class WorldItemBase : MonoBehaviour, IWorldInteractable
 {
     [Header("Item")]
     public ItemDefinition definition;
@@ -62,6 +62,9 @@ public abstract class WorldItemBase : MonoBehaviour
         if (promptUI != null) promptUI.SetActive(visible);
     }
 
+    /// <summary>Реализация <see cref="IWorldInteractable"/>: для предмета взаимодействие = подбор.</summary>
+    public void Interact() => TryPickup();
+
     /// <summary>Подобрать предмет в инвентарь. Уничтожает GameObject при успехе.</summary>
     public void TryPickup()
     {
@@ -70,6 +73,21 @@ public abstract class WorldItemBase : MonoBehaviour
 
         var item = preservedInstance ?? new ItemInstance(definition, stackCount);
         if (item.nestedContainer != null) inv.RegisterContainerRecursive(item.nestedContainer);
+
+        // 0) Долить в существующие стаки того же типа (если предмет стакаемый)
+        if (item.IsStackable)
+        {
+            foreach (var container in inv.GetPickupContainers())
+            {
+                if (container.TryStackInto(item) && item.stackCount <= 0)
+                {
+                    inv.NotifyChanged();
+                    Debug.Log($"[Pickup] {definition.displayName} → стакнут в {container.containerId}");
+                    Destroy(gameObject);
+                    return;
+                }
+            }
+        }
 
         // 1) Экипировка
         if (inv.TryEquipAnyMatchingSlot(item))
@@ -153,7 +171,7 @@ public abstract class WorldItemBase : MonoBehaviour
     {
         if (promptText == null || definition == null) return;
         string name  = definition.displayName;
-        string stack = definition.maxStackSize > 1 ? $" ×{stackCount}" : "";
+        string stack = stackCount > 1 ? $" ×{stackCount}" : "";
         string size  = $"{definition.width}×{definition.height}";
         promptText.text = $"[{pickupKey}] {name}{stack}\n{size}  {definition.weightPerUnit * stackCount:F2} кг";
     }

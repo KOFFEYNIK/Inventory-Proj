@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: cb4c86b0848063449b25157c2d62ef62
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Prefabs/Weapons/Guns/Glock_Modded.prefab
+  uploadId: 907428

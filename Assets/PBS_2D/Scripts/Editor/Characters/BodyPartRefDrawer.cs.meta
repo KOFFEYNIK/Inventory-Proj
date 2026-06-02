@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 65efa1377ec7a0b49b29356f5f27cddf
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Scripts/Editor/Characters/BodyPartRefDrawer.cs
+  uploadId: 907428

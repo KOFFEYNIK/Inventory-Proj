@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b4693b17ff2b0ea46ab26d3e8d23c579
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Prefabs/UI/ToggleSetting.prefab
+  uploadId: 907428

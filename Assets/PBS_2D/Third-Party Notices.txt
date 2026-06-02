@@ -1,0 +1,21 @@
+This asset is governed by the Asset Store EULA; however, the following components are governed by the licenses indicated below:
+
+A. TextMesh Pro, Unity Companion License
+
+Copyright (c) Unity Technologies
+
+Licensed under the Unity Companion License for Unity-dependent projects (see https://unity.com/legal/licenses/unity-companion-license).
+
+Unless expressly provided otherwise, the Software under this license is made available strictly on an "AS IS" BASIS WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.
+
+TextMesh Pro is used for text rendering in the UI.
+
+B. Universal Render Pipeline (URP), Unity Companion License
+
+Copyright (c) Unity Technologies
+
+Licensed under the Unity Companion License for Unity-dependent projects (see https://unity.com/legal/licenses/unity-companion-license).
+
+Unless expressly provided otherwise, the Software under this license is made available strictly on an "AS IS" BASIS WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.
+
+URP is used as the rendering pipeline for this project.

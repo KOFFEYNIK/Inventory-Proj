@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 076784b7604984c4c946e5a635a81b5a
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Prefabs/Systems/Systems.prefab
+  uploadId: 907428

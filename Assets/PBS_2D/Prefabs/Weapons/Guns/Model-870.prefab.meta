@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ca25b9497e410a74ea497ac403d4114c
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Prefabs/Weapons/Guns/Model-870.prefab
+  uploadId: 907428

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 3997e2241185407d80309a82f9148466
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/ThirdParty/TextMesh Pro/Shaders/TMPro_Properties.cginc
+  uploadId: 907428

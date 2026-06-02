@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: a6af58c2657e0a04dbf9b783a6051cc2
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Scripts/Characters/PlayerManager.cs
+  uploadId: 907428

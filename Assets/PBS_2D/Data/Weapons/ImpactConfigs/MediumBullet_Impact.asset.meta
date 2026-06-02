@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2c7dce0ff85d15f44a0e8ec28180064f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Data/Weapons/ImpactConfigs/MediumBullet_Impact.asset
+  uploadId: 907428

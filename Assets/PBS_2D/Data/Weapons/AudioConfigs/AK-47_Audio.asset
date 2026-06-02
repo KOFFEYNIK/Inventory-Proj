@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6fd0d4ed68e3ec4c93fde62d4c0a1ac, type: 3}
+  m_Name: AK-47_Audio
+  m_EditorClassIdentifier: 
+  ShootClip: {fileID: 8300000, guid: fe7dd20ce6922084fb4b884848c2b28a, type: 3}
+  PullTriggerClip: {fileID: 8300000, guid: f560d2b574f54334388847f2794a480e, type: 3}
+  GunMechClip: {fileID: 8300000, guid: c4fe2191e2681294496e1fedd2f2376e, type: 3}
+  PullBoltClip: {fileID: 8300000, guid: b7cd4a43e49bd614b955c5a8ffedfdbb, type: 3}
+  PushBoltClip: {fileID: 8300000, guid: 87f892db5da43f748a98d0b931cc1fc6, type: 3}
+  SnapMagClip: {fileID: 8300000, guid: 0afee8fe19727f54ca2c324e1c9e966a, type: 3}
+  ReleaseMagClip: {fileID: 8300000, guid: 715aec296da5774439af28efdd341f14, type: 3}
+  PullForendClip: {fileID: 8300000, guid: be7461355aed03347a52afc57e89a51a, type: 3}
+  PushForendClip: {fileID: 8300000, guid: 09cbd0d4354fee04681d69362f4ed73c, type: 3}
+  InsertShellClip: {fileID: 8300000, guid: c84e419c9e1a7d84a94c88765ebca44e, type: 3}

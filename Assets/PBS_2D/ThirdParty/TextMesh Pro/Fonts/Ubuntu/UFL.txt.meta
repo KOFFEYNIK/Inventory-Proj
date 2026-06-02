@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d89cd1410e8cdb94ea44a1e22720eddc
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/ThirdParty/TextMesh Pro/Fonts/Ubuntu/UFL.txt
+  uploadId: 907428

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8f15baa784bc4ad45aa114ccdb415550
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Prefabs/Characters/Enemy_Dynamic.prefab
+  uploadId: 907428

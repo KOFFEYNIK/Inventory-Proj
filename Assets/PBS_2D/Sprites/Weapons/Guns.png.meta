@@ -1,0 +1,982 @@
+fileFormatVersion: 2
+guid: bcd590217d0015944b9d5b989f32afd1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2064476187793382326
+    second: pixelguns_demo_0
+  - first:
+      213: 3524369618862291263
+    second: pixelguns_demo_1
+  - first:
+      213: -8915573343658621354
+    second: pixelguns_demo_2
+  - first:
+      213: 4714299769240333309
+    second: pixelguns_demo_3
+  - first:
+      213: 8973354433583805770
+    second: pixelguns_demo_4
+  - first:
+      213: -2012541082349974610
+    second: pixelguns_demo_5
+  - first:
+      213: 6535632000184898196
+    second: pixelguns_demo_6
+  - first:
+      213: -1307865178490433170
+    second: pixelguns_demo_7
+  - first:
+      213: 6392056439597816506
+    second: pixelguns_demo_8
+  - first:
+      213: 2120517331042146438
+    second: pixelguns_demo_9
+  - first:
+      213: 5705111911433721785
+    second: pixelguns_demo_10
+  - first:
+      213: 8537205839703501559
+    second: pixelguns_demo_11
+  - first:
+      213: 4665301498610255898
+    second: pixelguns_demo_12
+  - first:
+      213: 5487594329422332965
+    second: pixelguns_demo_13
+  - first:
+      213: 7956482504287609701
+    second: pixelguns_demo_14
+  - first:
+      213: -4600353155085496509
+    second: pixelguns_demo_15
+  - first:
+      213: -1848288506119246018
+    second: pixelguns_demo_16
+  - first:
+      213: -4328502096584913570
+    second: pixelguns_demo_17
+  - first:
+      213: 4612662000524898281
+    second: pixelguns_demo_18
+  - first:
+      213: -4455368824752329386
+    second: pixelguns_demo_19
+  - first:
+      213: 1343458770334070459
+    second: pixelguns_demo_20
+  - first:
+      213: 6281750090961018726
+    second: pixelguns_demo_21
+  - first:
+      213: 638825704616207519
+    second: pixelguns_demo_22
+  - first:
+      213: -8011942913165393767
+    second: pixelguns_demo_23
+  - first:
+      213: 6637045839393842630
+    second: pixelguns_demo_24
+  - first:
+      213: 3623132812818214862
+    second: pixelguns_demo_25
+  - first:
+      213: -2662951642595827531
+    second: pixelguns_demo_26
+  - first:
+      213: 429226714841382363
+    second: pixelguns_demo_27
+  - first:
+      213: -4844821660452255764
+    second: pixelguns_demo_28
+  - first:
+      213: 6794687428227233687
+    second: pixelguns_demo_29
+  - first:
+      213: -1502759964190148732
+    second: pixelguns_demo_30
+  - first:
+      213: 4675395580972847045
+    second: pixelguns_demo_31
+  - first:
+      213: -721911766596850340
+    second: pixelguns_demo_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ak-47
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 242
+        width: 37
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5135135, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e825765a738779143ab40823228ca580
+      internalID: -1192408204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ak-47_mag
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 240
+        width: 8
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5555556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d8c7b5ad12ef449ad7712c6d23dd42
+      internalID: -4420201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m4a1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 226
+        width: 37
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5135135, y: 0.54545456}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ad241ee62c818419e310bfb139eff1
+      internalID: -572612455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m4a1_mag
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 226
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 477fa8b398e6fad4996b11539b2f1206
+      internalID: -572043031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mp5
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 193
+        width: 29
+        height: 11
+      alignment: 9
+      pivot: {x: 0.51724136, y: 0.54545456}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2194811db40607a41895f779499b3096
+      internalID: -1683092056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mp5_mag
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 192
+        width: 6
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5555556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 739772da445d14a4ba41e2b8f8c1b9c0
+      internalID: 273703239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beretta
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 180
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1b98119500f14148966813bbe75f9bb
+      internalID: 1869501912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beretta_slide
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 185
+        width: 10
+        height: 3
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f64dda1184f5b4e83d06c4dd031707
+      internalID: 62236438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beretta_mag
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 180
+        width: 4
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 869dd17cf13cc1545af5977ea98412b3
+      internalID: 620255340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: remington-870
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 126
+        width: 37
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5135135, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aca3a7e33e79f84699d08e3149b65e0
+      internalID: 1909180749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: remington-870_forend
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 129
+        width: 9
+        height: 4
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae81772254251814f9a669e2a72263c7
+      internalID: -220843666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glock
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 169
+        width: 11
+        height: 8
+      alignment: 9
+      pivot: {x: 0.54545456, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8768b1486882a5a409f15d900e573c95
+      internalID: 251666302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glock_mag
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 169
+        width: 4
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 581c7c065a432074c828a81dfc2291fa
+      internalID: -954658313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glock_slide
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 174
+        width: 11
+        height: 3
+      alignment: 9
+      pivot: {x: 0.54545456, y: 0.6666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c42e7201b58ab44b32b2c2b885d83d
+      internalID: 282120050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mac-10
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 211
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25fa437a9055dcd4aa256b54322c4916
+      internalID: 884139178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mac-10_mag
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 210
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e9e57893fc76414aa08158864193364
+      internalID: -173140453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: awp
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 154
+        width: 48
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7402245c2be002748ac60bbcbe665061
+      internalID: 399237618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: awp_mag
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 157
+        width: 6
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e23435d28e8dc42868e994fe124dac
+      internalID: -1801458700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: awp_bolt
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 162
+        width: 5
+        height: 4
+      alignment: 9
+      pivot: {x: 0.6, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e9267805ff52e409419c186423eb3c
+      internalID: 320541068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m4a1_icon
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 224
+        width: 37
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee7fc16bf706de4f9dd11ce24ffd845
+      internalID: 1353749739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mac-10_icon
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 207
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd747518b211cd4a87ea8edbfde87c6
+      internalID: 1934847056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mp5_icon
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 191
+        width: 29
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c4fbd0b838567148ba7594f1a301bf6
+      internalID: -410885375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beretta_icon
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 180
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e2a23d6b4dc1240bc00adcfbedfe63
+      internalID: -49670702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ak-47_icon
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 240
+        width: 37
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7a45b7b0444a047aa983857e9ab89d
+      internalID: -1459157666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glock_icon
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 169
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 550adf09fe9af3344a21c9dfca17dde5
+      internalID: 939821110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: awp_icon
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 154
+        width: 48
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f082c6d77191a4b944efc0c571d4a0
+      internalID: 241464381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: remington-870_icon
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 126
+        width: 37
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3dd552c27b9c224090747b3f8c7bfe5
+      internalID: 532028255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragunov
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 139
+        width: 46
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec63186e3f004a4dbfb3a089819312c
+      internalID: -1475053670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragunov_mag
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 142
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5952aada88b82e24aa9ccf64f77adefa
+      internalID: -1612428068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aa-12
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 111
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7087d9ceead2648a4d3d8514dc8698
+      internalID: -1783172168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aa-12_mag
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 112
+        width: 5
+        height: 8
+      alignment: 9
+      pivot: {x: 0.6, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef3ab5eeabecab42a3fef51d3945513
+      internalID: -379898446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4383245716519fe41ae692adb47eb65a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      aa-12: -1783172168
+      aa-12_mag: -379898446
+      ak-47: -1192408204
+      ak-47_icon: -1459157666
+      ak-47_mag: -4420201
+      awp: 399237618
+      awp_bolt: 320541068
+      awp_icon: 241464381
+      awp_mag: -1801458700
+      beretta: 1869501912
+      beretta_icon: -49670702
+      beretta_mag: 620255340
+      beretta_slide: 62236438
+      dragunov: -1475053670
+      dragunov_mag: -1612428068
+      glock: 251666302
+      glock_icon: 939821110
+      glock_mag: -954658313
+      glock_slide: 282120050
+      m4a1: -572612455
+      m4a1_icon: 1353749739
+      m4a1_mag: -572043031
+      mac-10: 884139178
+      mac-10_icon: 1934847056
+      mac-10_mag: -173140453
+      mp5: -1683092056
+      mp5_icon: -410885375
+      mp5_mag: 273703239
+      pixelguns_demo_0: 2064476187793382326
+      pixelguns_demo_1: 3524369618862291263
+      pixelguns_demo_10: 5705111911433721785
+      pixelguns_demo_11: 8537205839703501559
+      pixelguns_demo_12: 4665301498610255898
+      pixelguns_demo_13: 5487594329422332965
+      pixelguns_demo_14: 7956482504287609701
+      pixelguns_demo_15: -4600353155085496509
+      pixelguns_demo_16: -1848288506119246018
+      pixelguns_demo_17: -4328502096584913570
+      pixelguns_demo_18: 4612662000524898281
+      pixelguns_demo_19: -4455368824752329386
+      pixelguns_demo_2: -8915573343658621354
+      pixelguns_demo_20: 1343458770334070459
+      pixelguns_demo_21: 6281750090961018726
+      pixelguns_demo_22: 638825704616207519
+      pixelguns_demo_23: -8011942913165393767
+      pixelguns_demo_24: 6637045839393842630
+      pixelguns_demo_25: 3623132812818214862
+      pixelguns_demo_26: -2662951642595827531
+      pixelguns_demo_27: 429226714841382363
+      pixelguns_demo_28: -4844821660452255764
+      pixelguns_demo_29: 6794687428227233687
+      pixelguns_demo_3: 4714299769240333309
+      pixelguns_demo_30: -1502759964190148732
+      pixelguns_demo_31: 4675395580972847045
+      pixelguns_demo_32: -721911766596850340
+      pixelguns_demo_4: 8973354433583805770
+      pixelguns_demo_5: -2012541082349974610
+      pixelguns_demo_6: 6535632000184898196
+      pixelguns_demo_7: -1307865178490433170
+      pixelguns_demo_8: 6392056439597816506
+      pixelguns_demo_9: 2120517331042146438
+      remington-870: 1909180749
+      remington-870_forend: -220843666
+      remington-870_icon: 532028255
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Sprites/Weapons/Guns.png
+  uploadId: 907428

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7fd110fcaf387834c8bc151b2a238448
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Prefabs/Characters/Human.prefab
+  uploadId: 907428

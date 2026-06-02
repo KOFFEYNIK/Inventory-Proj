@@ -81,6 +81,26 @@ public class GridContainer
         return id != null && placed.TryGetValue(id, out var d) ? d.item : null;
     }
 
+    /// <summary>Есть ли куда принять <paramref name="item"/>: место в стаке того же типа или
+    /// свободная ячейка под габарит. Не мутирует состояние — для подсветки drop-таргета
+    /// (например, при вложении предмета в контейнер).</summary>
+    public bool CanAcceptSomewhere(ItemInstance item)
+    {
+        if (item == null) return false;
+
+        if (item.IsStackable)
+            foreach (var kv in placed)
+                if (kv.Value.item.CanStackWith(item) && kv.Value.item.FreeStackSpace > 0)
+                    return true;
+
+        for (int y = 0; y < height; y++)
+            for (int x = 0; x < width; x++)
+                if (CanPlace(item, new Vector2Int(x, y)))
+                    return true;
+
+        return false;
+    }
+
     public List<(ItemInstance item, Vector2Int pos)> GetAllItems()
     {
         var list = new List<(ItemInstance, Vector2Int)>();
@@ -104,6 +124,24 @@ public class GridContainer
         if (!placed.TryGetValue(item.instanceId, out var d)) return;
         ClearCells(item, d.pos);
         placed.Remove(item.instanceId);
+    }
+
+    /// <summary>Долить <paramref name="item"/> в уже лежащие здесь стаки того же типа.
+    /// Перебирает существующие предметы и переливает в них как можно больше единиц.
+    /// Сам <paramref name="item"/> не размещается в сетке — только уменьшается его
+    /// <see cref="ItemInstance.stackCount"/>. Возвращает true, если стак поглощён полностью
+    /// (<c>stackCount &lt;= 0</c>), и его можно уничтожить.</summary>
+    public bool TryStackInto(ItemInstance item)
+    {
+        if (item == null || !item.IsStackable) return false;
+        foreach (var kv in placed)
+        {
+            var existing = kv.Value.item;
+            if (!existing.CanStackWith(item)) continue;
+            existing.MergeFrom(item);
+            if (item.stackCount <= 0) return true;
+        }
+        return false;
     }
 
     // ── Helpers ───────────────────────────────────────────────────────────────

@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: bcc93e847cf649a46af094fbe787f161
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Scripts/Characters/LegsController.cs
+  uploadId: 907428

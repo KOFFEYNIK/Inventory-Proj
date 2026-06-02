@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 1e3b057af24249748ff873be7fafee47
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/ThirdParty/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+  uploadId: 907428

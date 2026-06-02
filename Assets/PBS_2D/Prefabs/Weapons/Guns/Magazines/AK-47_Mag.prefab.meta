@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3a35f12fa3045cc4989dea7361a9720c
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Prefabs/Weapons/Guns/Magazines/AK-47_Mag.prefab
+  uploadId: 907428

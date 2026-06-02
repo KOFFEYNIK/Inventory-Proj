@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 645f53ccf26cbdf4e97643d92ae80d87
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Scripts/Audio/CharacterImpactSound.cs
+  uploadId: 907428

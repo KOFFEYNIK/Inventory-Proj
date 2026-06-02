@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea06ebed2c241184d921230c2f4a9b12, type: 3}
+  m_Name: MagazineCatalog_PBS2D
+  m_EditorClassIdentifier: Assembly-CSharp::InventoryPlug.Integration.PBS2D.MagazineCatalog
+  entries:
+  - magazineDefinition: {fileID: 11400000, guid: 835d897c0622224418223ac7e5fce851, type: 2}
+    caliber: {fileID: 11400000, guid: 5716073ae6f8cd94c9bf48ea46925d7b, type: 2}
+    capacity: 30
+    loadSecondsPerRound: 0.5
+  - magazineDefinition: {fileID: 11400000, guid: a63bbc3b29232904ab2325acfa5c7ec1, type: 2}
+    caliber: {fileID: 11400000, guid: de18e6a897c3fd14f9dec3dab0737659, type: 2}
+    capacity: 17
+    loadSecondsPerRound: 0.5

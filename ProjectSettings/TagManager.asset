@@ -4,21 +4,21 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - Player
+  - UI
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
-  - 
-  - 
-  - Platforms
-  - 
-  - 
-  - 
-  - 
+  - Ground
+  - Enemy
+  - Phasing
+  - Weapon
+  - Bullet
+  - Splat
+  - Outline
   - 
   - 
   - 
@@ -39,14 +39,20 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 2972908977
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Perspective
-    uniqueID: 3420322187
+  - name: Character
+    uniqueID: 301399487
     locked: 0
-  - name: Top
-    uniqueID: 282671577
+  - name: Gun
+    uniqueID: 4201372341
+    locked: 0
+  - name: Outer Limb
+    uniqueID: 1846222193
     locked: 0
   m_RenderingLayers:
   - Default

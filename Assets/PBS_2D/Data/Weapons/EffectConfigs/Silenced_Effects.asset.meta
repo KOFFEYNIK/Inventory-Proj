@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 799dd439ce37a8d4dab41f872665633b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Data/Weapons/EffectConfigs/Silenced_Effects.asset
+  uploadId: 907428

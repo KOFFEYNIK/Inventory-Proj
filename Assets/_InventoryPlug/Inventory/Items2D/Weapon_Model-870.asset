@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7ae15e37c4acdc45a510ce3ccf36115, type: 3}
+  m_Name: Weapon_Model-870
+  m_EditorClassIdentifier: GridInventory.Inventory.Runtime::ItemDefinition
+  itemId: Model-870
+  displayName: Model-870
+  description: 
+  icon: {fileID: 532028255, guid: bcd590217d0015944b9d5b989f32afd1, type: 3}
+  itemType: 8
+  width: 4
+  height: 2
+  canRotate: 1
+  canStack: 0
+  maxStackSize: 1
+  weightPerUnit: 4
+  isContainer: 0
+  containerWidth: 4
+  containerHeight: 3
+  containerMaxWeight: 0
+  worldMode: 1
+  worldPrefab3D: {fileID: 0}
+  worldPrefab2D: {fileID: 5771208539680259112, guid: c11d4994ca938e349a60e469b15f3fcc, type: 3}
+  weaponPrefab: {fileID: 6394634189871139688, guid: ca25b9497e410a74ea497ac403d4114c, type: 3}
+  consumable: {fileID: 0}

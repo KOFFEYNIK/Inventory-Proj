@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 640a3480cabb3d845905d18b914bb0cb
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/ThirdParty/URP/Flash.mat
+  uploadId: 907428

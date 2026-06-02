@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d428b75cb6a1b2649a62ea762b981627
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Data/Characters/AI/AI_Idle.asset
+  uploadId: 907428

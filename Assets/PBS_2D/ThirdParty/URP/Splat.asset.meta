@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 55573bfb7d574e1459e1a96509cd09d9
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/ThirdParty/URP/Splat.asset
+  uploadId: 907428

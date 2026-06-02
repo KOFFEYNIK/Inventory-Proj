@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 5e73a96ccf824ca4d928e2d01d96ec8d
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Scripts/Editor/DynamicValueDrawer.cs
+  uploadId: 907428

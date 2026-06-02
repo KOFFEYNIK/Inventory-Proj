@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: fdd1e9f9c7dd3cc4387a8cfe286aa8be
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/ThirdParty/TextMesh Pro/Fonts/Roboto/README.txt
+  uploadId: 907428

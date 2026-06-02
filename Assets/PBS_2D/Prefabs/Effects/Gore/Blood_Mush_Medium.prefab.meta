@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f99c851367e7b7c4cad75d75a819dea4
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Prefabs/Effects/Gore/Blood_Mush_Medium.prefab
+  uploadId: 907428

@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 9981ba745fcec704b9ac676e7024e60c
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Scripts/Input/WorldInputManager.cs
+  uploadId: 907428

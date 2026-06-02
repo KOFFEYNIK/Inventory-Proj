@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 905f13e9a8af4fe4f90e94656c68114d
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Scripts/Effects/SplatManager.cs
+  uploadId: 907428

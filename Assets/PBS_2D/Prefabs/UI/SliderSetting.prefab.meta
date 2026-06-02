@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 966b667400d12a44ea01a6dfb64a601e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Prefabs/UI/SliderSetting.prefab
+  uploadId: 907428

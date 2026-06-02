@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 58fc6dcfc53b2ed44a8885d98265d608
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Scripts/Audio/AudioManager.cs
+  uploadId: 907428

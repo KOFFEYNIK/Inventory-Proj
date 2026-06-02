@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.Scripting.APIUpdating;
@@ -10,6 +11,10 @@ using UnityEngine.Scripting.APIUpdating;
 /// клавишу <see cref="pickupKey"/>. При смене цели — старая подсказка скрывается.
 ///
 /// Курсор должен быть видимым (не залочен Cursor.lockState = Locked).
+///
+/// Сторонние системы (например, контекстное меню в проекте) могут читать <see cref="CurrentItem"/>
+/// и слушать <see cref="OnRightClickedItem"/>, чтобы реагировать на ПКМ по предмету без правок этого скрипта.
+/// Чтобы заморозить смену цели (когда меню открыто) — выставь <see cref="SuppressHoverUpdates"/>.
 ///
 /// Раньше класс назывался <c>HoverPickup</c> в Assembly-CSharp.
 /// </summary>
@@ -26,7 +31,7 @@ public class HoverPickup3D : MonoBehaviour
 
     [Header("Raycast")]
     [Tooltip("Максимальная дистанция от камеры до предмета.")]
-    public float maxDistance = 10f;
+    public float maxDistance = 100f;
 
     [Tooltip("Слои, по которым стрелять. По умолчанию — все.")]
     public LayerMask hoverMask = ~0;
@@ -34,8 +39,25 @@ public class HoverPickup3D : MonoBehaviour
     [Tooltip("Игнорировать, когда курсор над UI (открытый инвентарь или меню).")]
     public bool ignoreOverUI = true;
 
-    private Camera      cam;
-    private WorldItem3D currentItem;
+    /// <summary>Срабатывает, когда пользователь нажал ПКМ при наведённом ПРЕДМЕТЕ. Внешние
+    /// системы (контекстное меню в проекте) могут подписаться и показать своё меню.</summary>
+    public event Action<WorldItem3D> OnRightClickedItem;
+
+    /// <summary>Срабатывает, когда пользователь нажал ПКМ при наведённом КОНТЕЙНЕРЕ (ящик/сундук).
+    /// Проектная прокладка показывает меню «Открыть».</summary>
+    public event Action<WorldContainerBase> OnRightClickedContainer;
+
+    /// <summary>Если true — каждый кадр пропускаем обновление цели. Использовать когда
+    /// открыто контекстное меню, чтобы цель «замораживалась» под меню.</summary>
+    [NonSerialized] public bool SuppressHoverUpdates;
+
+    private Camera             cam;
+    private IWorldInteractable current;          // наведённая цель (предмет ИЛИ контейнер)
+    private WorldItem3D        currentItem;       // != null только когда цель — пикап
+    private WorldContainerBase currentContainer;  // != null только когда цель — ящик
+
+    /// <summary>Текущий наведённый ПРЕДМЕТ под курсором. null, если наведён ящик или ничего.</summary>
+    public WorldItem3D CurrentItem => currentItem;
 
     void Awake() => cam = GetComponent<Camera>();
 
@@ -51,28 +73,44 @@ public class HoverPickup3D : MonoBehaviour
             return;
         }
 
-        var target = RaycastWorldItem();
-        SetCurrent(target);
+        if (!SuppressHoverUpdates)
+            SetCurrent(RaycastInteractable());
 
-        if (currentItem == null) return;
+        if (current == null) return;
 
-        if (pickupOnHover || Input.GetKeyDown(pickupKey))
+        if (Input.GetMouseButtonDown(1))
+        {
+            // ПКМ сам по себе не взаимодействует — только открывает контекстное меню проекта.
+            if (currentItem != null)           OnRightClickedItem?.Invoke(currentItem);
+            else if (currentContainer != null) OnRightClickedContainer?.Invoke(currentContainer);
+            return;
+        }
+
+        if (Input.GetKeyDown(pickupKey))
+            current.Interact();
+        else if (pickupOnHover && currentItem != null)
+            // Авто-подбор по наведению — только для предметов, ящик так не открываем (был бы спам).
             currentItem.TryPickup();
     }
 
-    private WorldItem3D RaycastWorldItem()
+    private IWorldInteractable RaycastInteractable()
     {
         Ray ray = cam.ScreenPointToRay(Input.mousePosition);
         if (!Physics.Raycast(ray, out var hit, maxDistance, hoverMask, QueryTriggerInteraction.Ignore))
             return null;
-        return hit.collider.GetComponentInParent<WorldItem3D>();
+
+        var item = hit.collider.GetComponentInParent<WorldItem3D>();
+        if (item != null) return item;
+        return hit.collider.GetComponentInParent<WorldContainerBase>();
     }
 
-    private void SetCurrent(WorldItem3D target)
+    private void SetCurrent(IWorldInteractable target)
     {
-        if (target == currentItem) return;
-        if (currentItem != null) currentItem.SetPromptVisible(false);
-        currentItem = target;
-        if (currentItem != null) currentItem.SetPromptVisible(true);
+        if (ReferenceEquals(target, current)) return;
+        current?.SetPromptVisible(false);
+        current          = target;
+        currentItem      = target as WorldItem3D;
+        currentContainer = target as WorldContainerBase;
+        current?.SetPromptVisible(true);
     }
 }

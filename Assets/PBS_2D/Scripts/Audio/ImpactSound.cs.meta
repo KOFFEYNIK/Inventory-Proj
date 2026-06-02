@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: a97de1fb38f9b7142b8cfc608bd37fbe
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Scripts/Audio/ImpactSound.cs
+  uploadId: 907428

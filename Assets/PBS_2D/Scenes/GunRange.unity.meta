@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6dbc154a7f47a7a499d6f73d482121a8
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Scenes/GunRange.unity
+  uploadId: 907428

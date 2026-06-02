@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b29121cd0d633054eb15c8fe3e8247e6
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Data/Weapons/AudioConfigs/Dragunov_Audio.asset
+  uploadId: 907428

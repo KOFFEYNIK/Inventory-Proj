@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4cc3b2c951456f642a98fbc8b7d8ede4
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Data/Characters/AI/AI_Dynamic.asset
+  uploadId: 907428

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1447e81b9e7560f48bc3b1f8a65c429f
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Prefabs/Weapons/Guns/Casings/Shell_Red_3x1.prefab
+  uploadId: 907428

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 9d5532ae065459540a045c1287e419cf
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Third-Party Notices.txt
+  uploadId: 907428

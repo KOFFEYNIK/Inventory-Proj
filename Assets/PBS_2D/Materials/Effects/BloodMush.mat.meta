@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 17c85ed4ae5486345b336a10e1c5aaf1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Materials/Effects/BloodMush.mat
+  uploadId: 907428

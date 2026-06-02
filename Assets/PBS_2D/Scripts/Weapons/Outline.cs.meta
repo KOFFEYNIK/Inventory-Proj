@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 28a47ccec2cd37a42b6c3f50be044987
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - outlineMaterial: {fileID: 2100000, guid: 98a6959da873b594c8b6927e04258a87, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Scripts/Weapons/Outline.cs
+  uploadId: 907428

@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 18d46c6172ff3e84ab1ca38059b6519a
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Scripts/UI/SceneSelection.cs
+  uploadId: 907428

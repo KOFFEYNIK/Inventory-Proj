@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 16239e83966f7324c9eb96209e3af274
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Scripts/Editor/Characters/AIBehaviorEditor.cs
+  uploadId: 907428

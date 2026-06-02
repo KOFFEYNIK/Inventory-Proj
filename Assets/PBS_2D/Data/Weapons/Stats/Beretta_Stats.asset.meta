@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4de23f2f82b6d2e4ab4e9b89284d0db3
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Data/Weapons/Stats/Beretta_Stats.asset
+  uploadId: 907428

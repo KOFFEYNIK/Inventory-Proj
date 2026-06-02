@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 275046c49add13f45b141a7ef3ee7560
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 6200000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Materials/Physics/Magazine.physicsMaterial2D
+  uploadId: 907428

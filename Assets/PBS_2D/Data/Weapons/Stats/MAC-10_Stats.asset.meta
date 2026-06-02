@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8dfd8f8d8493c8d49b4a96938864d4c1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Data/Weapons/Stats/MAC-10_Stats.asset
+  uploadId: 907428

@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -12,7 +13,8 @@ using UnityEngine.EventSystems;
 ///     вокруг <see cref="player"/> с радиусом <see cref="proximityRadius"/>. Подбор по
 ///     pickupKey или автоматически, если <see cref="pickupOnHover"/>.
 ///
-/// Удобен для top-down 2D, side-scroller / платформера, и pointer-driven UI.
+/// Сторонние системы могут читать <see cref="CurrentItem"/> и слушать <see cref="OnRightClickedItem"/>.
+/// Чтобы заморозить смену цели (когда меню открыто) — выставь <see cref="SuppressHoverUpdates"/>.
 /// </summary>
 [RequireComponent(typeof(Camera))]
 public class HoverPickup2D : MonoBehaviour
@@ -46,8 +48,21 @@ public class HoverPickup2D : MonoBehaviour
     [Tooltip("Игнорировать, когда курсор над UI.")]
     public bool ignoreOverUI = true;
 
-    private Camera      cam;
-    private WorldItem2D currentItem;
+    /// <summary>ПКМ при наведённом ПРЕДМЕТЕ — внешние системы могут подписаться и показать меню.</summary>
+    public event Action<WorldItem2D> OnRightClickedItem;
+
+    /// <summary>ПКМ при наведённом КОНТЕЙНЕРЕ (ящик/сундук) — проектная прокладка показывает «Открыть».</summary>
+    public event Action<WorldContainerBase> OnRightClickedContainer;
+
+    /// <summary>Если true — пропускаем обновление цели (для замораживания под открытым меню).</summary>
+    [NonSerialized] public bool SuppressHoverUpdates;
+
+    private Camera             cam;
+    private IWorldInteractable current;          // наведённая цель (предмет ИЛИ контейнер)
+    private WorldItem2D        currentItem;       // != null только когда цель — пикап
+    private WorldContainerBase currentContainer;  // != null только когда цель — ящик
+
+    public WorldItem2D CurrentItem => currentItem;
 
     void Awake() => cam = GetComponent<Camera>();
 
@@ -64,47 +79,49 @@ public class HoverPickup2D : MonoBehaviour
             return;
         }
 
-        var target = FindTarget();
-        SetCurrent(target);
+        if (!SuppressHoverUpdates)
+            SetCurrent(FindTarget());
 
-        if (currentItem == null) return;
+        if (current == null) return;
 
-        if (pickupOnHover || Input.GetKeyDown(pickupKey))
+        if (Input.GetMouseButtonDown(1))
+        {
+            if (currentItem != null)           OnRightClickedItem?.Invoke(currentItem);
+            else if (currentContainer != null) OnRightClickedContainer?.Invoke(currentContainer);
+            return;
+        }
+
+        if (Input.GetKeyDown(pickupKey))
+            current.Interact();
+        else if (pickupOnHover && currentItem != null)
+            // Авто-подбор по наведению — только для предметов, ящик так не открываем.
             currentItem.TryPickup();
     }
 
-    private WorldItem2D FindTarget()
+    private IWorldInteractable FindTarget()
     {
-        switch (mode)
+        Collider2D hit = mode switch
         {
-            case HoverMode.Mouse:
-                return FindMouseTarget();
-            case HoverMode.PlayerProximity:
-                return FindProximityTarget();
-            default:
-                return null;
-        }
+            HoverMode.Mouse           => Physics2D.OverlapPoint(cam.ScreenToWorldPoint(Input.mousePosition), hoverMask),
+            HoverMode.PlayerProximity => player != null
+                                         ? Physics2D.OverlapCircle(player.position, proximityRadius, hoverMask)
+                                         : null,
+            _ => null,
+        };
+        if (hit == null) return null;
+
+        var item = hit.GetComponentInParent<WorldItem2D>();
+        if (item != null) return item;
+        return hit.GetComponentInParent<WorldContainerBase>();
     }
 
-    private WorldItem2D FindMouseTarget()
+    private void SetCurrent(IWorldInteractable target)
     {
-        Vector3 worldPos = cam.ScreenToWorldPoint(Input.mousePosition);
-        var collider = Physics2D.OverlapPoint(worldPos, hoverMask);
-        return collider != null ? collider.GetComponentInParent<WorldItem2D>() : null;
-    }
-
-    private WorldItem2D FindProximityTarget()
-    {
-        if (player == null) return null;
-        var hit = Physics2D.OverlapCircle(player.position, proximityRadius, hoverMask);
-        return hit != null ? hit.GetComponentInParent<WorldItem2D>() : null;
-    }
-
-    private void SetCurrent(WorldItem2D target)
-    {
-        if (target == currentItem) return;
-        if (currentItem != null) currentItem.SetPromptVisible(false);
-        currentItem = target;
-        if (currentItem != null) currentItem.SetPromptVisible(true);
+        if (ReferenceEquals(target, current)) return;
+        current?.SetPromptVisible(false);
+        current          = target;
+        currentItem      = target as WorldItem2D;
+        currentContainer = target as WorldContainerBase;
+        current?.SetPromptVisible(true);
     }
 }

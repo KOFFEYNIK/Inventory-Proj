@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: b0cdf65fd3d943a4397dda3e55e0d11b
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Scripts/Characters/Body/BodyPhysicsController.cs
+  uploadId: 907428

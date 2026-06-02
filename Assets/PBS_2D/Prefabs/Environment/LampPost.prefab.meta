@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 2eb7131e5a300b94d94dc775832f664d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Prefabs/Environment/LampPost.prefab
+  uploadId: 907428

@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 62fc0ece9feb9014ca65d1590c523419
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Scripts/Characters/Body/Leg.cs
+  uploadId: 907428

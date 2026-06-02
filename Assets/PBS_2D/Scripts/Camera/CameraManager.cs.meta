@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: d0075ce845bb3b54c8aaa0ed51716b35
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Scripts/Camera/CameraManager.cs
+  uploadId: 907428

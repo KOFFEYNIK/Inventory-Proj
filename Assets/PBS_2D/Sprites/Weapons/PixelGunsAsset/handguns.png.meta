@@ -1,0 +1,249 @@
+fileFormatVersion: 2
+guid: 7ae00688dfb6d7546a654b3223d955c8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7546936721957979345
+    second: handguns_0
+  - first:
+      213: -3859871872600321968
+    second: handguns_1
+  - first:
+      213: -6764245910835620852
+    second: handguns_2
+  - first:
+      213: -719083855350294529
+    second: handguns_3
+  - first:
+      213: -5594654570622100749
+    second: handguns_4
+  - first:
+      213: -391119414054470982
+    second: handguns_5
+  - first:
+      213: -6433696071720455134
+    second: handguns_6
+  - first:
+      213: 8758721735696174565
+    second: handguns_7
+  - first:
+      213: 6701901995724192713
+    second: handguns_8
+  - first:
+      213: 8793269317791936201
+    second: handguns_9
+  - first:
+      213: -7352404232250206203
+    second: handguns_10
+  - first:
+      213: -8937620017828438143
+    second: handguns_11
+  - first:
+      213: 1036030979067963311
+    second: handguns_12
+  - first:
+      213: 1845338617485612342
+    second: handguns_13
+  - first:
+      213: 2870284735239531740
+    second: handguns_14
+  - first:
+      213: 9149131898615185764
+    second: handguns_15
+  - first:
+      213: -23154922310940440
+    second: handguns_16
+  - first:
+      213: 4121919332930701247
+    second: handguns_17
+  - first:
+      213: 7472085248767393812
+    second: handguns_18
+  - first:
+      213: -3815824748727441215
+    second: handguns_19
+  - first:
+      213: 1904638210704362945
+    second: handguns_20
+  - first:
+      213: 1764853354202879643
+    second: handguns_21
+  - first:
+      213: 3788841107708455802
+    second: handguns_22
+  - first:
+      213: 8999400100722346964
+    second: handguns_23
+  - first:
+      213: -7539947757707390302
+    second: handguns_24
+  - first:
+      213: 2701585133581485867
+    second: handguns_25
+  - first:
+      213: 1340274448015250432
+    second: handguns_26
+  - first:
+      213: -8531041680166488533
+    second: handguns_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d3153c7fdced32f49b608ee217bf0e2e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      handguns_0: 7546936721957979345
+      handguns_1: -3859871872600321968
+      handguns_10: -7352404232250206203
+      handguns_11: -8937620017828438143
+      handguns_12: 1036030979067963311
+      handguns_13: 1845338617485612342
+      handguns_14: 2870284735239531740
+      handguns_15: 9149131898615185764
+      handguns_16: -23154922310940440
+      handguns_17: 4121919332930701247
+      handguns_18: 7472085248767393812
+      handguns_19: -3815824748727441215
+      handguns_2: -6764245910835620852
+      handguns_20: 1904638210704362945
+      handguns_21: 1764853354202879643
+      handguns_22: 3788841107708455802
+      handguns_23: 8999400100722346964
+      handguns_24: -7539947757707390302
+      handguns_25: 2701585133581485867
+      handguns_26: 1340274448015250432
+      handguns_27: -8531041680166488533
+      handguns_3: -719083855350294529
+      handguns_4: -5594654570622100749
+      handguns_5: -391119414054470982
+      handguns_6: -6433696071720455134
+      handguns_7: 8758721735696174565
+      handguns_8: 6701901995724192713
+      handguns_9: 8793269317791936201
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Sprites/Weapons/PixelGunsAsset/handguns.png
+  uploadId: 907428

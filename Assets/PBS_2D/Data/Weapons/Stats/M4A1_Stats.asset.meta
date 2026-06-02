@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a9dd5e630e6385244a03bc4afd2cd2a3
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Data/Weapons/Stats/M4A1_Stats.asset
+  uploadId: 907428

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: cacc8be7c601adb4e83067c52d1b772b
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Prefabs/Environment/Lamp.prefab
+  uploadId: 907428

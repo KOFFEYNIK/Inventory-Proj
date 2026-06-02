@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: b001eef61e7185f428fe90f8e8dccaac
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Scripts/Weapons/Guns/BulletImpact.cs
+  uploadId: 907428

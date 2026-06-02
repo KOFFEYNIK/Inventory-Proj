@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: aa5c62ae88c8adc4bbd7c1f09954e132
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Prefabs/Weapons/Guns/Casings/BrassCasing_4x1.prefab
+  uploadId: 907428

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4b695f7fc6c84f9468c866fa3768381e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Prefabs/Weapons/Guns/AWP.prefab
+  uploadId: 907428

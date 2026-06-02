@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: f1ba20c1ba663494fbc1d4ff6a792607
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Scripts/Characters/Body/Torso.cs
+  uploadId: 907428

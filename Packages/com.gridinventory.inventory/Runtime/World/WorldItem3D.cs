@@ -63,18 +63,18 @@ public class WorldItem3D : WorldItemBase
         if (definition == null) return null;
 
         GameObject go = null;
-        if (definition.worldPrefab != null)
+        if (definition.worldPrefab3D != null)
         {
             try
             {
-                go = Object.Instantiate(definition.worldPrefab, position,
+                go = Object.Instantiate(definition.worldPrefab3D, position,
                                         rotation == default ? Quaternion.identity : rotation);
                 go.name = definition.displayName;
                 SanitizeWorldPrefab(go);
             }
             catch (System.Exception ex)
             {
-                Debug.LogError($"[WorldItem3D] Instantiate worldPrefab '{definition.worldPrefab?.name}' " +
+                Debug.LogError($"[WorldItem3D] Instantiate worldPrefab '{definition.worldPrefab3D?.name}' " +
                                $"для '{definition.displayName}' упал: {ex.Message}. Падение на fallback-куб.");
                 if (go != null) Object.Destroy(go);
                 go = null;

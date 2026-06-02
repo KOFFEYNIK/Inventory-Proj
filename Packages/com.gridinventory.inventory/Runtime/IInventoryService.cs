@@ -19,4 +19,8 @@ public interface IInventoryService
 
     /// <summary>Триггер события OnInventoryChanged — UI и хотбар обновятся.</summary>
     void NotifyChanged();
+
+    /// <summary>Открыть окно стороннего контейнера (мировой ящик/сундук) рядом с инвентарём игрока.
+    /// Регистрирует контейнер, открывает панель инвентаря (если закрыта) и показывает окно содержимого.</summary>
+    void OpenContainerWindow(GridContainer container, string title);
 }

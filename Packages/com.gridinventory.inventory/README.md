@@ -4,9 +4,15 @@
 
 ## Что внутри
 
-- **Core** — `GridContainer`, `ItemDefinition` (SO), `ItemInstance`, `ItemType`.
+- **Core** — `GridContainer`, `ItemDefinition` (SO с переключателем `WorldMode` + `worldPrefab3D` / `worldPrefab2D`), `ItemInstance`, `ItemType`.
 - **Equipment** — `EquipmentSlot`, `EquipmentSlotType`.
-- (далее): Manager, Save/Load, World pickup, Hotbar, UI.
+- **Config** — `InventoryConfig`, `PocketEntry`, `EquipmentSlotEntry`.
+- **Hotbar** — `HotbarConfig` (с тоглом `enabled` + `slotCount`), `HotbarSlotEntry`, `HotbarSlotKind`.
+- **Effects** — `ItemEffect` (abstract SO), `IItemEffectContext`, `ItemEffectContext`.
+- **Persistence** — `ISaveProvider`, `FileSaveProvider`, `InventoryPersistence`.
+- **World** — `WorldItemBase`, `WorldItem3D`, `WorldItem2D`, `WorldItemSpawner` (диспатчер по `WorldMode`), `HoverPickup3D`, `HoverPickup2D`.
+- **IInventoryService** + `Inventory.Service` — статическая точка инъекции.
+- (за пределами пакета): `InventoryManager` (мульти-инстанс с `OnActiveChanged`), UI-стек, `WeaponHotbar`, эффекты Hunger/Thirst/Health — пока в `Assets/_InventoryPlug/Scripts/`.
 
 ## Установка
 

@@ -13,6 +13,16 @@ using UnityEngine;
 [Serializable]
 public class HotbarConfig
 {
+    [Tooltip("Глобальный тогл. Если false — хотбар отключён: цифровые клавиши не активны, " +
+             "UI-панель внизу экрана не строится.")]
+    public bool enabled = true;
+
+    [Tooltip("Желаемое количество слотов. 0 = использовать длину списка <slots>. " +
+             "Иначе список автоматически подрезается / расширяется до этого размера " +
+             "(новые слоты добавляются как UserItem). Цифровые клавиши закреплены за индексами " +
+             "0..9 (1, 2, … 9, 0); слоты >9 доступны только через программный SelectSlot.")]
+    [Min(0)] public int slotCount = 0;
+
     [Tooltip("Все слоты хотбара по порядку. Клавиши активации привязаны индексу: 0→'1', 1→'2', …, 9→'0'. " +
              "Слотов больше 10 — клавиши доступны только через программный SelectSlot().")]
     public List<HotbarSlotEntry> slots = new();
@@ -22,6 +32,15 @@ public class HotbarConfig
 
     [Tooltip("Индекс слота, который активируется при нажатии reservedHotkey.")]
     public int reservedHotkeyTarget = 0;
+
+    /// <summary>Подгоняет список slots до <see cref="slotCount"/>, если он &gt; 0.
+    /// Слот, добавляемый «лишним», создаётся как UserItem. Лишние срезаются.</summary>
+    public void ApplySlotCountOverride()
+    {
+        if (slotCount <= 0) return;
+        while (slots.Count < slotCount) slots.Add(new HotbarSlotEntry { kind = HotbarSlotKind.UserItem });
+        if (slots.Count > slotCount) slots.RemoveRange(slotCount, slots.Count - slotCount);
+    }
 
     /// <summary>Tarkov-like дефолт хотбара. Используется, если InventoryConfig.hotbar пуст.</summary>
     public static HotbarConfig CreateDefault()

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6e95bd1a485165545afa486fef4e2c3e
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/ThirdParty/TextMesh Pro/Fonts/Roboto/OFL.txt
+  uploadId: 907428

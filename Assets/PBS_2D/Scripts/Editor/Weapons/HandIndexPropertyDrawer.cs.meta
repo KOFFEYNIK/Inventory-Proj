@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 19d1ed243ca0e444bae01fb8408750fd
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Scripts/Editor/Weapons/HandIndexPropertyDrawer.cs
+  uploadId: 907428

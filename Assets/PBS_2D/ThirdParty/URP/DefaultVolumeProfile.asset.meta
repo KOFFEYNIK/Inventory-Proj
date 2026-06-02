@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a1eb3af93742bcd48a06da2a9a7f546e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/ThirdParty/URP/DefaultVolumeProfile.asset
+  uploadId: 907428

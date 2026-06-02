@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: f0715639780e6784a80acd9e0934b7d5
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Scripts/Utility/AverageRotation.cs
+  uploadId: 907428

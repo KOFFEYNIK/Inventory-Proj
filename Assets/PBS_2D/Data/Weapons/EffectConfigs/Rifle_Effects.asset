@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b5cc05741ff76b4a9f3ea10087d4d6b, type: 3}
+  m_Name: Rifle_Effects
+  m_EditorClassIdentifier: Assembly-CSharp::GunEffectConfig
+  EjectEffect: {fileID: 3851210227426026813, guid: 620a8bc95ab1d6f48ab797666bafc7d8, type: 3}
+  MuzzleFlash: {fileID: 5717086655611448089, guid: d77cb7f664b971e4eae8ef26910082ad, type: 3}
+  MuzzleSmoke: {fileID: 5717086655611448089, guid: 2d4c38f8488f87c4eb86e0ae92d71033, type: 3}
+  BulletPrefab: {fileID: 6578207954669759113, guid: f5995a429fdcf734792b05483732b230, type: 3}
+  CameraShakeAmount: 0.03
+  KickBackDistance: 0.15

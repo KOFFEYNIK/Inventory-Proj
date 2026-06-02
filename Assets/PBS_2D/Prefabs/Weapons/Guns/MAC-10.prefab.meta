@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a8c708688c0170f4b95ec538318187cb
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Prefabs/Weapons/Guns/MAC-10.prefab
+  uploadId: 907428

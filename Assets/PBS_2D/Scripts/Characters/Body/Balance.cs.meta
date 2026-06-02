@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 7c9e3256d0d4e89479474820c526bbc5
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Scripts/Characters/Body/Balance.cs
+  uploadId: 907428

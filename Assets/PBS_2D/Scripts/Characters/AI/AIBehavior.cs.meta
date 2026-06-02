@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 4d62e5073c0f260488d651bb85a9d9b3
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Scripts/Characters/AI/AIBehavior.cs
+  uploadId: 907428

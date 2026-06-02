@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: bd26e79c17e300248ba0c8485d4873cb
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Scripts/Editor/Weapons/GunStatsEditor.cs
+  uploadId: 907428

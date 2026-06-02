@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b3dfcacd9badf5a47919c0b23a3baebb
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Data/Characters/Skins/Skin_Bob.asset
+  uploadId: 907428

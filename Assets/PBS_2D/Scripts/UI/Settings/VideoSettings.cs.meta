@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: ca2811fee6e67bf4abe512f4b8eb1dee
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Scripts/UI/Settings/VideoSettings.cs
+  uploadId: 907428

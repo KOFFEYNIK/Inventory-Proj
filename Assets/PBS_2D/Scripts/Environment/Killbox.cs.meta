@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: b4a8bcbec11217c4bba9b03e51196296
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Scripts/Environment/Killbox.cs
+  uploadId: 907428

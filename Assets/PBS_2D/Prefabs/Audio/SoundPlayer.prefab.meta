@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7abe0da2b7b15764dbf84869afcd3104
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Prefabs/Audio/SoundPlayer.prefab
+  uploadId: 907428

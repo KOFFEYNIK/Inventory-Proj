@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 5ec433cfa28eed048aaa68a77eee4aa3
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Prefabs/Characters/Enemy_Run.prefab
+  uploadId: 907428

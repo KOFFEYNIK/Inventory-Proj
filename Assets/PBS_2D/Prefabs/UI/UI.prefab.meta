@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4ab6a6a2cbccf4540b49033a3783292d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/Prefabs/UI/UI.prefab
+  uploadId: 907428

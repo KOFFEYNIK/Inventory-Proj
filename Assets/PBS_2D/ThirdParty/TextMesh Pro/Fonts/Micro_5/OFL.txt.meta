@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: bcda7a97a583cb945957ea7d2030a329
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 370468
+  packageName: PBS 2D Framework
+  packageVersion: 0.2.5
+  assetPath: Assets/PBS_2D/ThirdParty/TextMesh Pro/Fonts/Micro_5/OFL.txt
+  uploadId: 907428
